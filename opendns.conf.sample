@@ -1,0 +1,20 @@
+# opendns.conf.sample - example config for opendns_filtering.py
+
+[opendns]
+# Your OpenDNS dashboard username (can also be set via OPENDNS_USER env variable)
+OPENDNS_USER = your_opendns_username_here
+
+# Your OpenDNS dashboard password (can also be set via OPENDNS_PASS env variable)
+OPENDNS_PASS = your_opendns_password_here
+
+# Your OpenDNS network ID (found in the URL when viewing content filtering settings)
+# NETWORK_ID = 
+
+# Path where screenshots (success or error) will be saved
+# (override via SCREENSHOT_PATH environment variable)
+# SCREENSHOT_PATH = /tmp/opendns_error.png
+
+# Comma-separated list of categories to toggle
+# (override via CATEGORIES environment variable)
+# Example categories: Video Sharing, Social Networking, Pornography, etc.
+CATEGORIES = Parked Domains, Proxy/Anonymizer, Anime/Manga/Webcomic, Games, Social Networking, Television, Video Sharing
